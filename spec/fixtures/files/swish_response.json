@@ -1,0 +1,16 @@
+{
+  "id": "49DD3539A9394CC1A2E49A4D49B4AA23",
+  "payeePaymentReference": null,
+  "paymentReference": "F3403EA964AA4B5A8E67B5274ED5F289",
+  "callbackUrl": "https://311f7df2.ngrok.io/swish/callback",
+  "payerAlias": "1111111111",
+  "payeeAlias": "1231181189",
+  "amount": 54.0,
+  "currency": "SEK",
+  "message": "",
+  "status": "PAID",
+  "dateCreated": "2020-04-22T19:15:08.296Z",
+  "datePaid": "2020-04-22T19:15:12.296Z",
+  "errorCode": null,
+  "errorMessage": null
+}

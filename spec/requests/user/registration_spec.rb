@@ -26,6 +26,11 @@ RSpec.describe 'POST /auth', type: :request do
     it 'returns a success message' do
       expect(response_json['status']).to eq 'success'
     end
+
+    it 'assign user to correct community' do
+      user= User.last
+      expect(user.community).to eq community
+    end
   end
 
   context 'when a user submits' do

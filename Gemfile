@@ -9,14 +9,15 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rack-cors', require: 'rack/cors'
 gem 'devise_token_auth'
 gem 'active_model_serializers', '~> 0.10.0'
+gem 'rest-client'
 
 group :development, :test do
-  gem 'pry-rails'
   gem 'pry-byebug'
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'coveralls', require: false
+  gem 'webmock'
 end
 
 group :development do
